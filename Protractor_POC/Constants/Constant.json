@@ -1,0 +1,27 @@
+{
+	"url": "https://las-stage-c-2012.kp.cfnp.local/DataManager",
+	"UserName": "ahmed.mohamed@bd.com",
+	"Password": "Carefusion@9",
+	"IDN": "AH_11June1",
+	
+	 
+    "details_Btn": "details-button",
+    "Proceed_Link": "proceed-link",
+    "Signin_BTN":"anchorSignIn",
+    "Signin_BTN_ID": "#anchorSignIn",
+    "UserNameField": "username",
+    "UserName_ID": "#username",
+    "PasswordField": "password",
+    "signIn": "sign-in",
+    "Home_Page": "bd-title",
+    "EX_Time": "600000",
+    "Login_Verification":"Welcome Ahmed",
+    "User": "bdshell--user-info-widget--toggle px-3 bdshell--user-info-widget--username text-light dropdown-toggle text-truncate d-none d-lg-inline",
+    "SignOut": "dropdown-item text-truncate",
+    "SignOut_Verification": "logout",
+    "SignOut_VerificationID": "#logout",
+    "SignOut_VerificationText":"Logout",
+    
+    
+    "ActingAs": "ActingAsDropdown"
+    }
