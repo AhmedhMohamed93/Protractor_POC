@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592171580718' stop='1592171659075'>
+    <name>PerformActions</name>
+    <title>PerformActions</title>
+    <test-cases>
+        <test-case start='1592171580718' status='passed' stop='1592171623311'>
+            <name>Verify that BD Super user is able to Impersonate IDN</name>
+            <title>Verify that BD Super user is able to Impersonate IDN</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2a7c9cef-e0a9-455b-8e5f-700502a41dc7-attachment.png' type='image/png' size='153116'/>
+            </attachments>
+        </test-case>
+        <test-case start='1592171623312' status='passed' stop='1592171659075'>
+            <name>Verify that BD Super user is able to Enter Customer notes</name>
+            <title>Verify that BD Super user is able to Enter Customer notes</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='67d1ba97-90fb-4175-ae39-d22e30dbcf93-attachment.png' type='image/png' size='135924'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

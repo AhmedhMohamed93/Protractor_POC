@@ -32,6 +32,7 @@ var LoginPage =  function() {
 		Password.sendKeys(constant.Password);
 		SignIn.click();
 		browser.wait(EC.visibilityOf(Home_Page), EX_Time);
+		browser.sleep(5000);
 		return Home_Page.getText();
 				
 	    };
@@ -50,7 +51,8 @@ var LoginPage =  function() {
 		UserName.sendKeys(constant.UserName);
 		Password.sendKeys(constant.Password);
 		SignIn.click();
-		browser.wait(EC.visibilityOf(Home_Page), EX_Time);		
+		browser.wait(EC.visibilityOf(Home_Page), EX_Time);
+		browser.sleep(5000);
 		};
 		   
 	this.SignOut = function() {

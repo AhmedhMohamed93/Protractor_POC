@@ -4,6 +4,7 @@ exports.config = {
  
 
   onPrepare: function() {
+	    browser.driver.manage().window().maximize();
 	    var AllureReporter = require('jasmine-allure-reporter');
 	    jasmine.getEnv().addReporter(new AllureReporter({
 	      resultsDir: 'allure-results'

@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1592171527160' stop='1592171580713'>
+    <name>Authentication</name>
+    <title>Authentication</title>
+    <test-cases>
+        <test-case start='1592171527160' status='passed' stop='1592171577916'>
+            <name>Verify that BD Super user is able to login successfully</name>
+            <title>Verify that BD Super user is able to login successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d015d5af-bb34-4be4-87bd-523da68a0b61-attachment.png' type='image/png' size='170926'/>
+            </attachments>
+        </test-case>
+        <test-case start='1592171577916' status='passed' stop='1592171580713'>
+            <name>Verify that BD Super user is able to Sign Out successfully</name>
+            <title>Verify that BD Super user is able to Sign Out successfully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a0098429-f0d4-4c9b-8f31-16cb53569dea-attachment.png' type='image/png' size='29906'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

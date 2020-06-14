@@ -23,5 +23,14 @@
     "SignOut_VerificationText":"Logout",
     
     
-    "ActingAs": "ActingAsDropdown"
+    "ActingAs": "ActingAsDropdown",
+    "Impersonate_Verfication": "Welcome to AH_11June1",
+    "Mapping": "li.nav-item.dropdown.dropdown-firstlevel-container.ng-star-inserted:nth-child(6) a.nav-link.px-3.ng-star-inserted > span:nth-child(1)",
+    "Mapping_Page": "ul.nav.nav-tabs li.nav-item.ng-star-inserted:nth-child(2) a.nav-link > span:nth-child(1)",
+    "Notes": "tr.ui-selectable-row.ng-star-inserted:nth-child(1) td.ng-star-inserted:nth-child(4) i.far.fa-sticky-note.double-margin-bottom",
+    "Notes_Modal": "div.modal-dialog.modal-sm > div.modal-content",
+    "Cust_Notes": "#CustomerNotes",
+    "EnteredNotes": "Check Customer Notes",
+    "Save_Modal": "ConfirmEditNotesButton",
+    "Notes_Verification": "div.table div.notes.ng-star-inserted:nth-child(3) > div.col-sm-12.warn.ng-star-inserted"
     }

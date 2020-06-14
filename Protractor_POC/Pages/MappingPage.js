@@ -7,12 +7,46 @@ var LoginOb = new LoginPage();
 var MappingPage =  function() { 
 
 	var ActingAs = element(by.id(constant.ActingAs));
+	var Home_Page = element(by.className(constant.Home_Page));
+	//var Imp_Verification = constant.Impersonate_Verfication + constant.IDN;
+	var EX_Time = Number(constant.EX_Time);
+	var Mapping = element(by.css(constant.Mapping));
+	var Mapping_Page = element(by.css(constant.Mapping_Page));
 	
-	this.NavigateToMapping = function() {		
+	var Notes = element(by.css(constant.Notes));
+	var Notes_Modal = element(by.css(constant.Notes_Modal));
+	var Cust_Notes = element(by.css(constant.Cust_Notes));
+	var Save_Modal = element(by.id(constant.Save_Modal));
+	var Notes_Verification = element(by.css(constant.Notes_Verification));
+	
+	this.Impersonate = function() {	
+		var EC = protractor.ExpectedConditions;
 		LoginOb.loginS();
 		ActingAs.click();		
-		ActingAs.sendKeys(constant.IDN);
-		browser.sleep(10000);
+		ActingAs.sendKeys(constant.IDN);		
+		browser.wait(EC.visibilityOf(Home_Page), EX_Time);
+		browser.sleep(5000);
+		return Home_Page.getText()
 	    };	
+	    
+		this.NavigateToMapping = function() {	
+			var EC = protractor.ExpectedConditions;
+			browser.wait(EC.visibilityOf(Mapping), EX_Time);
+			browser.sleep(5000);
+			Mapping.click()
+			browser.wait(EC.visibilityOf(Mapping_Page), EX_Time);
+			browser.sleep(5000);
+			Mapping_Page.click();
+			browser.wait(EC.visibilityOf(Notes), EX_Time);
+			browser.sleep(10000);
+			Notes.click();
+			browser.wait(EC.visibilityOf(Notes_Modal), EX_Time);
+			Cust_Notes.clear();
+			Cust_Notes.sendKeys(constant.EnteredNotes);
+			Save_Modal.click();
+			browser.wait(EC.visibilityOf(Notes_Verification), EX_Time);
+			browser.sleep(5000);
+			return Notes_Verification.getText();
+		    };	
 };
 module.exports = MappingPage;
