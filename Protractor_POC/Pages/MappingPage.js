@@ -6,15 +6,15 @@
 
 var constant = require('../Constants/Constant.json');
 var LoginPage = require('./LoginPage.js');
-	/****************************************************************************************************
-	 *                                                                                                  *
-	 *                                           Variables                                              *
-	 *                                                                                                  *
-	 ****************************************************************************************************/
+   /****************************************************************************************************
+    *                                                                                                  *
+    *                                           Variables                                              *
+    *                                                                                                  *
+    ****************************************************************************************************/
 var LoginOb = new LoginPage();
 
 var MappingPage =  function() { 
-	/****************************************************************************************************
+    /****************************************************************************************************
      *                                                                                                  *
      *                                           Locators                                               *
      *                                                                                                  *
@@ -31,15 +31,15 @@ var MappingPage =  function() {
 	var Save_Modal = element(by.id(constant.Save_Modal));
 	var Notes_Verification = element(by.css(constant.Notes_Verification));
 
-	/****************************************************************************************************
+    /****************************************************************************************************
      *                                                                                                  *
      *                                           Methods                                                *
      *                                                                                                  *
      ****************************************************************************************************/
 	
-	/****************************************************************************************************
+    /****************************************************************************************************
      *                                                                                                  *
-     *   Method Name : Impersonate()                                                      				*
+     *   Method Name : Impersonate()                                                      		*
      *   Inputs      : Null                                                                             *
      *   Outputs     : Text string                                                                      *
      *   Description : This Method is to Launch the Impersonate a specific health system                *
@@ -57,13 +57,13 @@ var MappingPage =  function() {
 	    
 	/****************************************************************************************************
 	 *                                                                                                  *
-	 *   Method Name : NavigateToMapping()                                                   			*
+	 *   Method Name : NavigateToMapping()                                                   	    *
 	 *   Inputs      : Null                                                                             *
 	 *   Outputs     : Text string                                                                      *
-	 *   Description : This Method is to:												                *
-	 *   			   1. Navigate to Mapping Page                                                      *
-	 *   			   2. Navigate to DERS Data Tab														*
-	 *   			   3. Select specific DERS Data item and Enter a specific Customer notes			*
+	 *   Description : This Method is to:							            *
+	 *   			   1. Navigate to Mapping Page                                              *
+	 *   			   2. Navigate to DERS Data Tab						    *
+	 *   			   3. Select specific DERS Data item and Enter a specific Customer notes    *
 	 *                                                                                                  *
 	 ****************************************************************************************************/	    
 		this.NavigateToMapping = function() {	
