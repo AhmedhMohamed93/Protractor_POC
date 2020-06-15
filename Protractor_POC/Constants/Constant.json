@@ -1,15 +1,15 @@
 {
-	"//":" ********************  Login Credentials constants  **********************",
+   "//":" ********************  Login Credentials constants  **********************",
 	
-	"url": "https://las-stage-c-2012.kp.cfnp.local/DataManager",
-	"UserName": "ahmed.mohamed@bd.com",
-	"Password": "Carefusion@9",
+   "url": "https://las-stage-c-2012.kp.cfnp.local/DataManager",
+   "UserName": "ahmed.mohamed@bd.com",
+   "Password": "Carefusion@9",
 	
-	"///":" ********************  Health System Name  **********************",
+   "///":" ********************  Health System Name  **********************",
 	
-	"IDN": "AH_11June1",
+   "IDN": "AH_11June1",
 	
-	"////":" ********************  Login / Sign out Page Constans  **********************",
+   "////":" ********************  Login / Sign out Page Constans  **********************",
 	
     "details_Btn": "details-button",
     "Proceed_Link": "proceed-link",
@@ -41,4 +41,6 @@
     "Notes_Verification": "div.table div.notes.ng-star-inserted:nth-child(3) > div.col-sm-12.warn.ng-star-inserted",
     
     "Formularies": "ul.nav.nav-tabs li.nav-item.active.ng-star-inserted:nth-child(1) a.nav-link.active > span:nth-child(1)"
-    }
+    }    
+    
+
