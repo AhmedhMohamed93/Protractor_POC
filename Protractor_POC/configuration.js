@@ -9,7 +9,7 @@ exports.config = {
  ****************************************************************************************************/
 	    browser.driver.manage().window().maximize();
 /****************************************************************************************************
- *                              Initialization of Allure report										*
+ *                              Initialization of Allure report		 			    *
  *                              The generated report located in "Allure-results folder"             *
  ****************************************************************************************************/    
 	    var AllureReporter = require('jasmine-allure-reporter');
@@ -17,7 +17,7 @@ exports.config = {
 	      resultsDir: 'allure-results'
 	    }));
 /****************************************************************************************************
-*              After each Test case capture a screenshot to be used in the generated	     		*
+*              After each Test case capture a screenshot to be used in the generated	     	    *
 *                                       allure report												*
 ****************************************************************************************************/  
 	    jasmine.getEnv().afterEach(function(done){
