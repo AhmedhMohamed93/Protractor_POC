@@ -1,6 +1,6 @@
 exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['Authentication.js','PerformActions.js'],
+  specs: ['Authentication.js','PerformActions.js','FormulariesActions.js'],
  
 
   onPrepare: function() {

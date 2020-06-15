@@ -38,5 +38,7 @@
     "Cust_Notes": "#CustomerNotes",
     "EnteredNotes": "Check Customer Notes",
     "Save_Modal": "ConfirmEditNotesButton",
-    "Notes_Verification": "div.table div.notes.ng-star-inserted:nth-child(3) > div.col-sm-12.warn.ng-star-inserted"
+    "Notes_Verification": "div.table div.notes.ng-star-inserted:nth-child(3) > div.col-sm-12.warn.ng-star-inserted",
+    
+    "Formularies": "ul.nav.nav-tabs li.nav-item.active.ng-star-inserted:nth-child(1) a.nav-link.active > span:nth-child(1)"
     }
