@@ -1,10 +1,16 @@
 {
+	"//":" ********************  Login Credentials constants  **********************",
+	
 	"url": "https://las-stage-c-2012.kp.cfnp.local/DataManager",
 	"UserName": "ahmed.mohamed@bd.com",
 	"Password": "Carefusion@9",
+	
+	"///":" ********************  Health System Name  **********************",
+	
 	"IDN": "AH_11June1",
 	
-	 
+	"////":" ********************  Login / Sign out Page Constans  **********************",
+	
     "details_Btn": "details-button",
     "Proceed_Link": "proceed-link",
     "Signin_BTN":"anchorSignIn",
@@ -22,7 +28,7 @@
     "SignOut_VerificationID": "#logout",
     "SignOut_VerificationText":"Logout",
     
-    
+    "/////":" ********************  Mapping / DERS Data Page Constans  **********************",
     "ActingAs": "ActingAsDropdown",
     "Impersonate_Verfication": "Welcome to AH_11June1",
     "Mapping": "li.nav-item.dropdown.dropdown-firstlevel-container.ng-star-inserted:nth-child(6) a.nav-link.px-3.ng-star-inserted > span:nth-child(1)",
